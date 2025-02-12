@@ -1,0 +1,14 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+body{
+  background-image: url("./assets/male-working-with-welding-torch.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
