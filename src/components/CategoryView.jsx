@@ -8,7 +8,7 @@ function CategoryView() {
         Array.from({length:3}).map((item,index)=>{
           return <div className="mt-5 p-2 relative flex justify-center" key={index}>
           <img
-            src={`src/assets/doors/door${index+1}.png`}
+            src={`/doors/door${index + 1}.png`}
             alt=""
             className="h-[50vh] object-contain w-auto p-4 bg-white"
           />
